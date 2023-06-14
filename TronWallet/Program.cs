@@ -26,7 +26,7 @@ namespace ConsoleApp
                             var publickey = wallet.Address;
                             var privatekey = wallet.PrivateKey;
                             Console.WriteLine("Address (Public key): " + publickey);
-                            Console.WriteLine("Address (Public key): " + privatekey);
+                            Console.WriteLine("Address (Private key): " + privatekey);
                             Console.WriteLine("Press any key to repeat ...");
                             Console.ReadLine();
                             break;
